@@ -23,7 +23,7 @@ paths:
       x-amazon-apigateway-integration:
         type: "aws_proxy"
         uri:
-          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:my-lambda-1/invocations"
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:my-lambda-15/invocations"
         httpMethod: "POST"
         
   /users/{user_name}:
@@ -37,7 +37,7 @@ paths:
       x-amazon-apigateway-integration:
         type: "aws_proxy"
         uri:
-          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:my-lambda-2/invocations"
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:my-lambda-25/invocations"
         httpMethod: "POST" 
         
     post:
@@ -57,7 +57,7 @@ paths:
       x-amazon-apigateway-integration:
         type: "aws_proxy"
         uri:
-          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:post-lambda/invocations"
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:post-lambda5/invocations"
         httpMethod: "POST"
         
         
